@@ -47,8 +47,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | controller and method URI segments.
 |
 | Examples:	my-controller/index	-> my_controller/index
-|		my-controller/my-method	-> my_controller/my_method
+|		my-controller/my-method	-> my_controller/my_method 
 */
-$route['default_controller'] = 'biodata';
+$route['default_controller'] = 'Pegawai';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
